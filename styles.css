@@ -1,0 +1,64 @@
+html {
+    margin: 0 auto;
+}
+
+body {
+    background: #FF9;
+    margin: 0 auto;
+}
+
+.content {
+    background: white;
+    width: 760px;
+    margin: 0px auto;
+    max-width: 760px;
+    word-wrap: break-word;
+    box-shadow: 0px 45px 38px 15px rgba(0, 0, 0, 0.75);
+}
+
+p {
+    color: #666;
+    font-size: 1em;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+h1,
+h2,
+h3 {
+    color: #393;
+    font-family: "Palatino Linotype", Times, Serif;
+    border-top: 2px solid #063;
+    padding: 0px 0px 7px 100px;
+}
+
+.attention {
+    color: #000;
+    border: 2px dashed #633;
+    background: #FF9;
+    margin: 25px 50px 35px 100px;
+    padding: 20px;
+}
+
+.attention strong {
+    color: #F60;
+}
+
+.banner {
+    width: 760px;
+    height: 192px;
+    background: url(imagen.jpg);
+    background-size: 760px 192px;
+}
+
+.banner h2 {
+    position: relative;
+    top: 50%;
+    right: 0%;
+    color: white;
+    font-size: 2em;
+    margin: 0 auto;
+    border: none;
+}
